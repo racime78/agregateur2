@@ -21,7 +21,7 @@ body {
 
 footer {
     margin-top: auto;
-    background: linear-gradient(to right, #00093c, #0e4474);    
+    background-color: rgb(59 130 246);
     color: #fff;
     padding: 50px 0 30px;
     border-top-left-radius: 125px;
@@ -92,9 +92,13 @@ form .far{
 .input{
     width: 100%;
     background: transparent;
-    color: #ccc;
+    color: #fff;
     border: none;
     outline: none;
+}
+
+.input::placeholder {
+    color: white;
 }
 
 form button{

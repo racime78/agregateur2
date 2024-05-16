@@ -45,8 +45,6 @@
             echo file_get_contents("footer.html");
         ?>
 
-    </section>
-
-  
+    </section>  
 </body>
 </html>

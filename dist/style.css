@@ -1121,8 +1121,7 @@ a:link,a:active,a:visited,a:hover{
 
 .detbox .designation
       {
-  color: hsl(0, 0%, 81%);
-  opacity: 50%;
+  color: white;
   font-size: 0.8rem;
 }
 
