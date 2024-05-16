@@ -52,8 +52,8 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
                 </div>
 
                 <div>
-                    <label for="description" class="block mb-1">Description (1000 caractères):</label>
-                    <input type="text" id="description" name="description" value="<?php echo $row['Description_offre']; ?>" class="w-full border border-gray-300 rounded px-3 py-2">
+                    <label for="description_offre" class="block mb-1">Description (1000 caractères):</label>
+                    <input type="text" id="description_offre" name="description_offre" value="<?php echo $row['Description_offre']; ?>" class="w-full border border-gray-300 rounded px-3 py-2">
                 </div>
                 
                 <div>

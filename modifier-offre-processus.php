@@ -11,13 +11,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $titre = $_POST['titre'];
         $contrat = $_POST['contrat'];
         $ville = $_POST['ville'];
-        $description = $_POST['description'];
+        $description_offre = $_POST['description_offre'];
                 
         // Traiter les données dans la base de données
         require('config.php');
         
         // Préparer la requête de mise à jour
-        $sql = "UPDATE offre SET Entreprise = '$entreprise', Titre = '$titre', Contrat = '$contrat', Ville = '$ville', Description_offre = '$description' WHERE ID_O = $offre_id";
+        $sql = "UPDATE offre SET Entreprise = '$entreprise', Titre = '$titre', Contrat = '$contrat', Ville = '$ville', Description_offre = '$description_offre' WHERE ID_O = $offre_id";
         
         // Exécuter la requête de mise à jour
         if ($conn->query($sql) === TRUE) {
