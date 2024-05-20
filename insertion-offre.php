@@ -15,10 +15,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $contrat = $_POST['contrat'];
         $urloffre = $_POST['urloffre'];
         $ville = $_POST['ville'];
-        $description_offre = $_POST['description_offre'];
         
         // Préparer la requête d'insertion
-        $sql = "INSERT INTO offre (Entreprise, LogoUrl, Titre, Date_Offre, Contrat, Lien, Ville, Description_offre) VALUES ('$entreprise', '$logourl', '$titre', '$dateoffre', '$contrat', '$urloffre', '$ville', ' $description_offre')";
+        $sql = "INSERT INTO offre (Entreprise, LogoUrl, Titre, Date_Offre, Contrat, Lien, Ville) VALUES ('$entreprise', '$logourl', '$titre', '$dateoffre', '$contrat', '$urloffre', '$ville')";
         
         // Exécuter la requête d'insertion
         if ($conn->query($sql) === TRUE) {

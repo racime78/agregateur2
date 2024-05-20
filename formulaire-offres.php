@@ -116,22 +116,10 @@
               id="supportCheckbox"
               class="formbold-input-checkbox"
             />
+            
           </div>
         </label>
       </div>
-
-
-      <div class="formbold-input-flex">
-        <div>
-          <label for="description_offre" class="formbold-form-label"> Description </label>
-          <input
-            type="text"
-            name="description_offre"
-            id="description_offre"
-            class="formbold-form-input"
-          />
-        </div>
-
       <button class="formbold-btn">Créer l'offre</button>
     </form>
     <br>
